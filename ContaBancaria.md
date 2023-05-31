@@ -35,7 +35,6 @@ Public class ContaBancaria {
 					break;
 			}
 			
-			
 		System.out.println("++++++++++++++++ Extrato Conta +++++++++++++++++++++");
 		System.out.println(" - Número            \t\t\t    " + numeroConta);
 		System.out.println(" - Saldo  Anterior   \t\t\t R$ " + saldoConta);
@@ -53,6 +52,5 @@ Public class ContaBancaria {
 			System.out.println("Digite 0 para Deposito ou 1 para retirada");
 			System.out.println("Por favor tente novamente!");
 		}
-		
 	}
 }
