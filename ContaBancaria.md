@@ -4,29 +4,9 @@ Public class ContaBancaria {
 	Private static final int OP_TIPO_DEPOSITO = 0;
 
 	Public static void main(String[] args) {
-		/**
-		 * Você não é obrigado a declarar e já inicializar as variáveis, mas é sempre bom fazer isso.
-		 * Lhe ajuda a pensar no que realmente vai utilizar no seu programa.
-		 */
-		
-		/**
-		 * Armazenar o número da conta informado pelo usuário.
-		 */
 		int numeroConta = 0;
-		/**
-		 * Armazenar o saldo da conta informado pelo usuário.
-		 */
 		float saldoConta = 0; 
-		/**
-		 * O usuário deverá indicar qual o tipo de transação Depósito(0)/Retirada(1)
-		 * Esse variável armazenar o tipo da operação escolhida pelo usuário.
-		 */
 		int operacao = 0;
-		
-		/**
-		 * Essa variável armazena o valor a ser Retirado/Depositado na conta.
-		 * Depedente da operação indicada pelo usuário. 
-		 */
 		float valorTransacao = 0; 
 		
 		/**
