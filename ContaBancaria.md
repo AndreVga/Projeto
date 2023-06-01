@@ -53,14 +53,14 @@ Public class ContaBancaria {
 			}
 		System.out.println("++++++++++++++++ Extrato da Conta Corrente +++++++++++++++++++++");
 		System.out.println("                 ---- SICOOB CREDIVAR ----                      ");
-        System.out.println("                                              " + time.toString());
-        System.out.println(" ");
-        System.out.println(" - ID:                    \t\t\t       " + ID);
-        System.out.println(" - Nome do Cooperado:     \t\t\t       " + cooperado);
-        System.out.println(" - Número da Conta:      \t\t\t      " + numeroConta);
+            System.out.println("                                              " + time.toString());
+            System.out.println(" ");
+            System.out.println(" - ID:                    \t\t\t       " + ID);
+            System.out.println(" - Nome do Cooperado:     \t\t\t       " + cooperado);
+            System.out.println(" - Número da Conta:      \t\t\t      " + numeroConta);
 		System.out.println(" - Saldo Anterior:         \t\t\t  R$ " + saldoConta);
 		System.out.println(+ data.toString());
-        System.out.println(" - Operação Efetuada:      \t\t\t    " + ((operacao == OP_Deposito) ? "DEPOSITO":"RETIRADA") );
+            System.out.println(" - Operação Efetuada:      \t\t\t    " + ((operacao == OP_Deposito) ? "DEPOSITO":"RETIRADA") );
 		System.out.println(" - Valor da Transação:   \t\t\t R$ " + valorTransacao);
 		System.out.println(+ data.toString());
         System.out.println(" - Saldo Atual:              \t\t\t R$ " + saldoAtual);
