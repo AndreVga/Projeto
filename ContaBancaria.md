@@ -8,7 +8,7 @@ Public class ContaBancaria {
 
 	Public static void main(String[] args) {
 		string cooperado; /**Nome do Cooperado*/
-                int numeroConta = 0; /**ID Único*/
+              int numeroConta = 0; /**ID Único*/
 		float saldoConta = 0; 
 		int operacao = 0;
 		float valorTransacao = 0; 
