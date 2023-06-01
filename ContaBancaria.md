@@ -13,7 +13,7 @@ Public class ContaBancaria {
 		int operacao = 0;
 		float valorTransacao = 0; 
 		float saldoAtual = 0;
-        localdate data = localdate.now();
+            localdate data = localdate.now();
 
 		Scanner input = new Scanner(System.in);
 		
