@@ -78,8 +78,8 @@ Public class ContaBancaria {
 			System.out.println("Digite 0 (Zero) para Deposito ou 1 para Retirada");
 		}
 	}
-	      /**Rotina para ser programada no botão para Editar / Alterar o Cadastro do Cooperado.*/
-	      Public void actionPerformed (ActionEvent e){ 
+	        /**Rotina para ser programada no botão para Editar / Alterar o Cadastro do Cooperado.*/
+	        Public void actionPerformed (ActionEvent e){ 
 		
 		If(id.getText().equals(" ")){ /**Comando que irá verificar se foi informado o ID para ser excluído.*/
 		
@@ -91,8 +91,8 @@ Public class ContaBancaria {
 		est.Editar();
 		}
 	}
-	      /**Rotina para ser programada no botão Salvar o Cadastro do Cooperado.*/
-	      Public void actionPerformed(ActionEvent e){ 
+	        /**Rotina para ser programada no botão Salvar o Cadastro do Cooperado.*/
+	        Public void actionPerformed(ActionEvent e){ 
 		
 		If(id.getText().equals(" ")  ||  cooperado.getText().equals(" ")  ||  numeroConta.getText().equals(" ")  ||  saldoConta.getText().equals(" ")  || operacao.getText().equals(" ")  ||  valorTransacao.getText().equals(" ")  ||  saldoAtual.getText().equals(" ")){ 
 	
@@ -113,8 +113,8 @@ Public class ContaBancaria {
 		saldoAtual.setText(" ");
 		}
 	}
-	/**Rotina para ser programada no botão de Exclusão*/
-	Public void actionPerformed(ActionEvent e){ /**Rotina de conexão ao Banco de Dados para exclusão de cadastro.*/
+	        /**Rotina para ser programada no botão de Exclusão*/
+	        Public void actionPerformed(ActionEvent e){ /**Rotina de conexão ao Banco de Dados para exclusão de cadastro.*/
 		
 		If(id.getText().equals(" ")){ /**Comando que irá verificar se foi informado o ID para ser excluído.*/
 		
@@ -137,7 +137,7 @@ Public class ContaBancaria {
 		/** Comando para deixar os campos em branco "Limpo".*/
 		id.setText(" ");
 		cooperado.setText(" ");
-	    numeroConta.setText(" ");
+	        numeroConta.setText(" ");
 		saldoConta.setText(" ");
 		operacao.setText(" ");
 		valorTransacao.setText(" "); 
