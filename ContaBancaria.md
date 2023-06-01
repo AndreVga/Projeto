@@ -66,7 +66,7 @@ Public class ContaBancaria {
             System.out.println(" - Saldo Atual:                            \t\t\t R$ " + saldoAtual);
             System.out.println(+ data.toString());
             System.out.println(" ");
-		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		
             if(saldoAtual < 0){
 			System.out.println("          ****---Saldo Insuficiente---****                ");
