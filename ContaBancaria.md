@@ -74,12 +74,12 @@ Public class ContaBancaria {
 		}
 		else{
 			System.out.println("Operação informada é Inválida!");
-            System.out.println("Por favor, tente novamente!");
+                        System.out.println("Por favor, tente novamente!");
 			System.out.println("Digite 0 (Zero) para Deposito ou 1 para Retirada");
 		}
 	}
 	      /**Rotina para ser programada no botão para Editar / Alterar o Cadastro do Cooperado.*/
-	    Public void actionPerformed (ActionEvent e){ 
+	      Public void actionPerformed (ActionEvent e){ 
 		
 		If(id.getText().equals(" ")){ /**Comando que irá verificar se foi informado o ID para ser excluído.*/
 		
@@ -91,8 +91,8 @@ Public class ContaBancaria {
 		est.Editar();
 		}
 	}
-	/**Rotina para ser programada no botão Salvar o Cadastro do Cooperado.*/
-	Public void actionPerformed(ActionEvent e){ 
+	      /**Rotina para ser programada no botão Salvar o Cadastro do Cooperado.*/
+	      Public void actionPerformed(ActionEvent e){ 
 		
 		If(id.getText().equals(" ")  ||  cooperado.getText().equals(" ")  ||  numeroConta.getText().equals(" ")  ||  saldoConta.getText().equals(" ")  || operacao.getText().equals(" ")  ||  valorTransacao.getText().equals(" ")  ||  saldoAtual.getText().equals(" ")){ 
 	
