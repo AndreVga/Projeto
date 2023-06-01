@@ -9,14 +9,14 @@ Public class ContaBancaria {
 
 	Public static void main(String[] args) {
 		string cooperado; /**Nome do Cooperado.*/
-        int ID = 0; /**ID Único para Identificação do Cooperado.*/
-        int numeroConta = 0;
+           int ID = 0; /**ID Único para Identificação do Cooperado.*/
+           int numeroConta = 0;
 		float saldoConta = 0; 
 		int operacao = 0;
 		float valorTransacao = 0; 
 		float saldoAtual = 0;
-        localDate data = LocalDate.now();
-        LocalDateTime time = LocalDateTime.now(); 
+          localDate data = LocalDate.now();
+          LocalDateTime time = LocalDateTime.now(); 
 
 		Scanner input = new Scanner(System.in);
 		
