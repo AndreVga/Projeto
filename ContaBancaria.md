@@ -72,7 +72,7 @@ Public class ContaBancaria {
 		}
 		else{
 			System.out.println("Operação informada é Inválida!");
-            System.out.println("Por favor, tente novamente!");
+                System.out.println("Por favor, tente novamente!");
 			System.out.println("Digite 0 (Zero) para Deposito ou 1 para Retirada");
 		}
 	}
