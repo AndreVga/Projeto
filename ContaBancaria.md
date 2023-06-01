@@ -61,7 +61,7 @@ Public class ContaBancaria {
 		System.out.println(" - Saldo Anterior:                       \t\t\t  R$ " + saldoConta);
 		System.out.println(+ data.toString());
             System.out.println(" - Operação Efetuada:      \t\t\t    " + ((operacao == OP_Deposito) ? "DEPOSITO":"RETIRADA") );
-		System.out.println(" - Valor da Transação:                  \t\t\t R$ " + valorTransacao);
+		System.out.println(" - Valor da Transação:                 \t\t\t R$ " + valorTransacao);
 		System.out.println(+ data.toString());
             System.out.println(" - Saldo Atual:                            \t\t\t R$ " + saldoAtual);
             System.out.println(+ data.toString());
@@ -69,7 +69,7 @@ Public class ContaBancaria {
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		
             if(saldoAtual < 0){
-			System.out.println("          ****---Saldo Insuficiente---****              ");
+			System.out.println("          ****---Saldo Insuficiente---****                ");
 			}
 		}
 		else{
