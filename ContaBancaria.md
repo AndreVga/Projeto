@@ -8,19 +8,19 @@ Public class ContaBancaria {
 
 	Public static void main(String[] args) {
 		string cooperado; /**Nome do Cooperado*/
-      	int numeroConta = 0; /**ID Único*/
+        int numeroConta = 0; /**ID Único*/
 		float saldoConta = 0; 
 		int operacao = 0;
 		float valorTransacao = 0; 
 		float saldoAtual = 0;
-        	localdate data = localdate.now();
+        localdate data = localdate.now();
 
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Digite o Nome do Cooperado: ");
-        	cooperado = input.nextInt();
+        cooperado = input.nextInt();
 
-        	System.out.print("Digite o Número da Conta: ");
+        System.out.print("Digite o Número da Conta: ");
 		numeroConta = input.nextInt();
 		
 		/**System.out.print("Digite o Saldo da Conta? ");
@@ -45,16 +45,19 @@ Public class ContaBancaria {
 					break; 
 			}
 
-		System.out.println("++++++++++++++++ Extrato da Conta Corrrente +++++++++++++++++++++");
-		System.out.println(" - Nome do Cooperado   \t\t\t       " + cooperado);
-        	System.out.println(" - Número da Conta      \t\t\t      " + numeroConta);
+		System.out.println("++++++++++++++++ Extrato da Conta Corrente +++++++++++++++++++++");
+		System.out.println("                 ---- SICOOB CREDIVAR ----                      ");
+        System.out.println(" ");
+        System.out.println(" - Nome do Cooperado   \t\t\t       " + cooperado);
+        System.out.println(" - Número da Conta      \t\t\t      " + numeroConta);
 		System.out.println(" - Saldo Anterior        \t\t\t  R$ " + saldoConta);
-		System.out.println(+ data);
-        	System.out.println(" - Operação Efetuada      \t\t\t    " + ((operacao == OP_Deposito) ? "DEPOSITO":"RETIRADA") );
+		System.out.println(+ data.toString());
+        System.out.println(" - Operação Efetuada      \t\t\t    " + ((operacao == OP_Deposito) ? "DEPOSITO":"RETIRADA") );
 		System.out.println(" - Valor da Transação     \t\t\t R$ " + valorTransacao);
-		System.out.println(+ data);
-        	System.out.println(" - Saldo Atual            \t\t\t R$ " + saldoAtual);
-        	System.out.println(+ data);
+		System.out.println(+ data.toString());
+        System.out.println(" - Saldo Atual            \t\t\t R$ " + saldoAtual);
+        System.out.println(+ data.toString());
+        System.out.println(" ");
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 			
 		if(saldoAtual < 0){
