@@ -63,12 +63,12 @@ Public class ContaBancaria {
             System.out.println(" - Operação Efetuada:      \t\t\t    " + ((operacao == OP_Deposito) ? "DEPOSITO":"RETIRADA") );
 		System.out.println(" - Valor da Transação:   \t\t\t R$ " + valorTransacao);
 		System.out.println(+ data.toString());
-        System.out.println(" - Saldo Atual:              \t\t\t R$ " + saldoAtual);
-        System.out.println(+ data.toString());
-        System.out.println(" ");
+            System.out.println(" - Saldo Atual:              \t\t\t R$ " + saldoAtual);
+            System.out.println(+ data.toString());
+            System.out.println(" ");
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		
-        if(saldoAtual < 0){
+            if(saldoAtual < 0){
 			System.out.println("          ****---Saldo Insuficiente---****              ");
 			}
 		}
@@ -78,8 +78,8 @@ Public class ContaBancaria {
 			System.out.println("Digite 0 (Zero) para Deposito ou 1 para Retirada");
 		}
 	}
-	/**Rotina para ser programada no botão para Editar / Alterar o Cadastro do Cooperado.*/
-	Public void actionPerformed (ActionEvent e){ 
+	      /**Rotina para ser programada no botão para Editar / Alterar o Cadastro do Cooperado.*/
+	    Public void actionPerformed (ActionEvent e){ 
 		
 		If(id.getText().equals(" ")){ /**Comando que irá verificar se foi informado o ID para ser excluído.*/
 		
