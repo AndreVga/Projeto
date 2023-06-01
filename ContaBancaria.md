@@ -18,9 +18,9 @@ Public class ContaBancaria {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Digite o Nome do Cooperado: ");
-        cooperado = input.nextInt();
+            cooperado = input.nextInt();
 
-        System.out.print("Digite o Número da Conta: ");
+            System.out.print("Digite o Número da Conta: ");
 		numeroConta = input.nextInt();
 		
 		/**System.out.print("Digite o Saldo da Conta? ");
