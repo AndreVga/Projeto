@@ -47,7 +47,7 @@ Public class ContaBancaria {
 
 		System.out.println("++++++++++++++++ Extrato da Conta Corrente +++++++++++++++++++++");
 		System.out.println("                 ---- SICOOB CREDIVAR ----                      ");
-                System.out.println(" ");
+             System.out.println(" ");
                 System.out.println(" - Nome do Cooperado   \t\t\t       " + cooperado);
                 System.out.println(" - Número da Conta      \t\t\t      " + numeroConta);
 		System.out.println(" - Saldo Anterior        \t\t\t  R$ " + saldoConta);
