@@ -69,7 +69,7 @@ Public class ContaBancaria {
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		
             if(saldoAtual < 0){
-			System.out.println("          ****---Saldo Insuficiente---****                ");
+			System.out.println("          ****---Saldo Insuficiente---****               ");
 			}
 		}
 		else{
