@@ -11,8 +11,8 @@ Public class ContaBancaria {
 
 	Public static void main(String[] args) {
 		string cooperado; /**Nome do Cooperado.*/
-           int ID = 0; /**ID Único para Identificação do Cooperado.*/
-           int numeroConta = 0;
+            int ID = 0; /**ID Único para Identificação do Cooperado.*/
+            int numeroConta = 0;
 		float saldoConta = 0; 
 		int operacao = 0;
 		float valorTransacao = 0; 
