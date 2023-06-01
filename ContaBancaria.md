@@ -41,7 +41,7 @@ Public class ContaBancaria {
 		System.out.println("Digite o Valor da Transação: ");
 		valorTransacao = input.nextFloat();
 		
-		if(operacao == OP_Deposito  || operacao == OP_Retirada ){ 
+		if(operacao == OP_Deposito  || operacao == OP_Retirada){ 
 			
 			switch(operacao){
 				case OP_Deposito: 
