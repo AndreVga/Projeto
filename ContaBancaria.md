@@ -123,7 +123,7 @@ Public class ContaBancaria {
 		}else{
 		try {
 		
-		Connection con = contaBancaria(); /**Conexão ao Banco de Dados.*/
+		Connection con = contaBancaria(); /**Conexão com o Banco de Dados.*/
 		string sql = "delete from cadastro where id=?"; /**Cadastro é o nome da minha "Tabela de Informações" dos cooperados.*/
 		PreparedStatement stmt = con.prepareStatement(sql); 
 		
