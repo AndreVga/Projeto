@@ -8,8 +8,9 @@ Public class ContaBancaria {
 	Private static final int OP_Deposito = 0; /**Operação de Deposito*/
 
 	Public static void main(String[] args) {
-		string cooperado; /**Nome do Cooperado*/
-        int numeroConta = 0; /**ID Único*/
+		string cooperado; /**Nome do Cooperado.*/
+        int ID = 0; /**ID Único para Identificação do Cooperado.*/
+        int numeroConta = 0;
 		float saldoConta = 0; 
 		int operacao = 0;
 		float valorTransacao = 0; 
@@ -19,7 +20,10 @@ Public class ContaBancaria {
 
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Digite o Nome do Cooperado: ");
+		System.out.print("Digite seu ID: ");
+        ID = input.nextInt();
+
+        System.out.print("Digite o Nome do Cooperado: ");
         cooperado = input.nextInt();
 
         System.out.print("Digite o Número da Conta: ");
@@ -49,6 +53,7 @@ Public class ContaBancaria {
 		System.out.println("                 ---- SICOOB CREDIVAR ----                      ");
         System.out.println("                                              " + time.toString());
         System.out.println(" ");
+        System.out.println(" - ID:                    \t\t\t       " + ID);
         System.out.println(" - Nome do Cooperado:     \t\t\t       " + cooperado);
         System.out.println(" - Número da Conta:      \t\t\t      " + numeroConta);
 		System.out.println(" - Saldo Anterior:         \t\t\t  R$ " + saldoConta);
